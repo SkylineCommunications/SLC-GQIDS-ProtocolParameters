@@ -19,5 +19,14 @@ A unique catalog of 7000+ connectors already exists. In addition, you can levera
 
 At Skyline Communications, we deal with world-class solutions that are deployed by leading companies around the globe. Check out [our proven track record](https://aka.dataminer.services/about-skyline) and see how we make our customers' lives easier by empowering them to take their operations to the next level.
 
-<!-- Uncomment below and add more info to provide more information about how to use this package. -->
-<!-- ## Getting Started -->
+## Getting Started
+
+ - In a low-code app or dashboard configure add a new query and select `Get ad hoc data`.
+   
+ - Select the `SLC-GQIDS-ProtocolParameters` data source and fill in a valid protocol name and version.
+   
+    ![image](https://github.com/SkylineCommunications/SLC-GQIDS-ProtocolParameters/assets/97225679/b0fc298b-0511-4216-99e6-bfdc7d32f88b)
+  
+ - Now you can use the query to visualize the data in a component (i.e. table).
+   
+    ![image](https://github.com/SkylineCommunications/SLC-GQIDS-ProtocolParameters/assets/97225679/02ab9f4d-1e30-4164-93dc-b6bc97ed58e6)

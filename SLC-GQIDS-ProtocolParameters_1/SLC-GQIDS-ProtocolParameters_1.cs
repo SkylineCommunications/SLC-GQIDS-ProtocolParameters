@@ -31,7 +31,9 @@ public class GqiDataSource : IGQIOnInit, IGQIDataSource, IGQIInputArguments
 		var columns = new GQIColumn[]
 		{
 			new GQIIntColumn("Parameter ID"),
-			new GQIStringColumn("Parameter Name"),
+			new GQIStringColumn("Name"),
+			new GQIStringColumn("Description"),
+			new GQIStringColumn("Type"),
 		};
 
 		return columns;
@@ -49,6 +51,8 @@ public class GqiDataSource : IGQIOnInit, IGQIDataSource, IGQIInputArguments
 			{
 				new GQICell{ Value = parameterInfo.ID },
 				new GQICell{ Value = parameterInfo.Name },
+				new GQICell{ Value = parameterInfo.Description },
+				new GQICell{ Value = parameterInfo.ParameterType.ToString() },
 			};
 
 			rows.Add(new GQIRow(cells));
